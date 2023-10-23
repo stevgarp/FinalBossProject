@@ -1,0 +1,36 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 20px;
+        }
+
+        table {
+            margin: 0 auto; /* Centrar la tabla horizontalmente */
+            border-collapse: collapse;
+            width: 80%; /* Ancho de la tabla */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+        }
+
+        table, th, td {
+            border: 1px solid #ddd; /* Borde para celdas y encabezados */
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Fondo gris claro para filas pares */
+        }
+
+        th {
+            background-color: #007BFF; /* Fondo azul para encabezados */
+            color: #fff; /* Texto blanco para encabezados */
+        }
